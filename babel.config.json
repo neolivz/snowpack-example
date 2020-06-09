@@ -1,3 +1,5 @@
 {
-  "extends": "@snowpack/app-scripts-react/babel.config.json"
+  "extends": "@snowpack/app-scripts-react/babel.config.json",
+  "presets": ["@emotion/babel-preset-css-prop"],
+  "plugins": ["transform-node-env-inline"]
 }
